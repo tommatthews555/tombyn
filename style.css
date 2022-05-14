@@ -10,6 +10,10 @@ body, html {
     position:relative;
 
   }
+
+  @media only screen and (max-device-width: 1024px) {
+      background-size: 100px auto;
+  }
   
   .col-6 {
     /* align-content: center; */
