@@ -10,9 +10,15 @@ body, html {
     position:relative;
 
   }
+  html{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+  }
 
   @media only screen and (max-device-width: 1024px) {
-      background-size: 100px auto;
+      background-size: 100% auto;
   }
   
   .col-6 {
